@@ -28,6 +28,11 @@ body{
 	font-family: 'Lato', sans-serif;
 }
 
+.mobile{
+	display: none;
+	background-color: #666666;
+}
+
 .back{
 	color: white;
 	font-family: 'BebasNeue Regular';
@@ -831,18 +836,20 @@ body{
 
 }
 
-@media (min-width:801px)  {
-	.hero__hello{
-		margin-top: 0%;
+@media (max-width:801px)  {
+	.mobile{
+		display: block;
+		position: absolute;
+		height: 100vh;
+		width: 100%;
+		color:black;
+		font-weight: 300;
+		font-size: 20px;
+		padding: 20px;
+		background-color: white;
 	}
-
-	.hero__img{
-		width: 40%;
-	}
-
-	.navbar__logotext{
-		width: 10%;
-		display: inline-block;
-    	font-size: 25px;
+	
+	.desktop{
+		display: none;
 	}
 }
