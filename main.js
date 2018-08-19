@@ -44,12 +44,12 @@ $(document).ready(function () {
 				$('.menu').removeClass('black');
 			}
 
-			if(index == 4 && direction =='down'){
+			if(index == 5 && direction =='down'){
 				$('.menu').addClass('white');
 				$('.logo').addClass('white');
 			}
 
-			else if(index == 5 && direction == 'up'){
+			else if(index == 6 && direction == 'up'){
 				$('.menu').removeClass('white');
 				$('.logo').removeClass('white');
 			}
